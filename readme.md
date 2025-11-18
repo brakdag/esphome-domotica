@@ -34,11 +34,11 @@ El proyecto se organiza en directorios, donde cada uno representa un dispositivo
 
 .
 ├── inyeccion-cero/
-│   └── inyeccion0/inyeccion0.yaml
+│   └── inyeccion0.yaml
 ├── termotanque/
-│   └── termo\termotanque.yaml
+│   └── termotanque.yaml
 ├── timbre/
-│   └── timbre\timbre.yaml
+│   └── timbre.yaml
 │
 ├── .gitignore         \<-- Asegura que los secretos no se suban
 ├── secrets.yaml       \<-- (Local) Archivo de credenciales. NO INCLUIDO EN GIT.
