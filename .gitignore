@@ -1,0 +1,16 @@
+# Archivos de credenciales y secretos (¡FUNDAMENTAL para seguridad!)
+# NUNCA subir este archivo a GitHub.
+secrets.yaml
+
+# Directorios y archivos generados por ESPHome
+# Contienen binarios, logs, caché y dependencias de la plataforma.
+.esphome/
+build/
+**/*.bin
+**/*.elf
+**/*.map
+**/*.yaml.json
+
+# Archivos de caché del sistema operativo
+.DS_Store
+Thumbs.db
