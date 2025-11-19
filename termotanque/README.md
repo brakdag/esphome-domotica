@@ -1,4 +1,7 @@
-# 1. Controlador de Termotanque
+# Controlador de Termotanque
+Normalmente los excedentes de generación fotovoltaica van a baterías como almacenamiento de energía, en este caso, el termotanque es una forma de almacenar energía.
+
+## 1 Objetivos:
 
 Este firmware controla el encendido y apagado del termotanque, para usar excedentes de producción fotovoltaica con inyección cero.
 
