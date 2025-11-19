@@ -1,5 +1,5 @@
 # Controlador de Termotanque
-Normalmente los excedentes de generación fotovoltaica van a baterías como almacenamiento de energía, en este caso, el termotanque es una forma de almacenar energía.
+Normalmente los excedentes de generación fotovoltaica van a baterías como almacenamiento de energía, en este caso, el termotanque es una forma de almacenar energía. Y en este caso almacenamos de forma inteligente los excedentes de un sistema de inyección cero ya funcional..lo
 
 ## 1 Objetivos:
 
