@@ -1,17 +1,21 @@
 # 1. Controlador de Termotanque
 
-Este firmware controla el encendido y apagado del termotanque.
+Este firmware controla el encendido y apagado del termotanque, para usar excedentes de producción fotovoltaica con inyección cero.
 
 ## 2. Hardware y Diagrama de Pines
 
 * **Controlador:** ESP01s
 * **Relé:** ESP01s 5V (activado por el Pin GPIO0)
+* **Medidor de energía:** Shelly EM gen3.
 
-... (más detalles del armado) ...
+## 3. Firmware (ESPHome)
 
-## 3. Configuración en Home Assistant
+El firmware para el ESP-01 se encuentra en el siguiente archivo:
+* [`esphome/termotanque.yaml`](./esphome/termotanque.yaml)
 
-Para integrar este dispositivo en Home Assistant, se utilizan las siguientes automatizaciones y scripts.
+## 4. Configuración en Home Assistant
+
+Par a integrar este dispositivo en Home Assistant, se utilizan las siguientes automatizaciones y scripts.
 
 ### Automatización: Calentamiento Inteligente
 
