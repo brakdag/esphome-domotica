@@ -27,3 +27,14 @@ Período de amortización estimado.
 755000/(3.5*350)= 616días. Equivalente a 1 años y 8 meses.
 
 Tomando datos de media estación en primavera. El equipo tiene tiempo de vida por 20 años.
+
+## ⚡ Análisis de Consumo Diario
+
+| Concepto | Cálculo Detallado | Consumo (kWh) |
+| :--- | :--- | :--- |
+| Consumo Standby | 30W x 24 hs | 0.720 |
+| Consumo Nocturno | 10W x 12 hs | 0.120 |
+| Termotanque | 1 carga | 2.000 |
+| TV | 80W x 12 hs (aprox.) | 1.000 |
+| Heladera | 190W x 24 hs x 0.5 (ciclo) | 2.280 |
+| **TOTAL DIARIO** | | **6.120** |
