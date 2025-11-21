@@ -15,7 +15,7 @@ cada panel de 410w, produce 1.7 y 2kwh.
 
 La inversión 
 
-## 💡 Desglose de Costos (ARS)
+## Desglose de Costos (ARS)
 
 | Componente | Precio (ARS) |
 | :--- | ---: |
@@ -26,9 +26,12 @@ La inversión
 | Shelly EM | $ 165.000 |
 | **Total** | **$ 755.000** |
 
-Período de amortización estimado.
+## Período de amortización estimado.
+$$
+\frac{755000 \, \$}{355 \, \$/kWh} = 2126 \, kWh
+$$
 
-755000/(3.5*350)= 616días. Equivalente a 1 años y 8 meses.
+El ahorro mensual es de $112 \, kWh/mes$, el tiempo estimado es $\frac{2126 \, kWh}{112 \, kWh/mes} = 19 \, meses$.
 
 Tomando datos de media estación en primavera. El equipo tiene tiempo de vida por 20 años.
 
