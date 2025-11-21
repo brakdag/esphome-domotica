@@ -15,12 +15,16 @@ cada panel de 410w, produce 1.7 y 2kwh.
 
 La inversión 
 
-Panel 1: 146.000 ARS
-Panel 2: 152.000 ARS
-Inversor HOYMILES MI-1200: 282.000ARS
-AhoyDTU: 10.000$
-Shelly EM:165.000$
-Total:146000+152000+282000+10000+165000= 755000$
+## 💡 Desglose de Costos (ARS)
+
+| Componente | Precio (ARS) |
+| :--- | ---: |
+| Panel 1 | $ 146.000 |
+| Panel 2 | $ 152.000 |
+| Inversor HOYMILES MI-1200 | $ 282.000 |
+| AhoyDTU | $ 10.000 |
+| Shelly EM | $ 165.000 |
+| **Total** | **$ 755.000** |
 
 Período de amortización estimado.
 
