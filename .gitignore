@@ -17,3 +17,8 @@ build/
 # Archivos de caché del SO
 .DS_Store
 Thumbs.db
+
+# Prompts para IA
+prompts_raw/
+*.raw.md
+*.raw.txt
