@@ -1,4 +1,4 @@
-# Pirometric transformation.
+# Alarma Pirometrica.
 
 ## El objetivo:
 
@@ -104,3 +104,15 @@ Sensor de movimiento PIR, Alarma wireless + DOS LLAVEROS Remotos.
 - Alimentación 3 pilas en serie LR44 AWG 0%Mg.Pb CELL.
 - La placa dice NC13648 la placa tiene de un lado el emisior IR el boton y el
   led y del otro lado tiene el circuito con los componentes soldados smd.
+
+## Modificaciones realizadas.
+
+- Se agregó un circuito TP4056 usb C con una batería 18650 SONY y se quito,
+  el jack hembra para alimentación y se retiro la caja para 4 baterías de 1.2v AA.
+
+## Modificaciones a realizar.
+
+- [ ] Ver requisitos para conectar a home assistant.
+- [ ] Elegir circuito placa controladora y diagramar conexiones.
+- [ ] Realizar código para ESPHOME.
+- [ ] Implementar.
