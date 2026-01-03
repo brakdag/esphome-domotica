@@ -21,4 +21,4 @@ Thumbs.db
 # Prompts para IA
 prompts_raw/
 *.raw.md
-*.raw.txt
+*.raw.txt*.FCBak
