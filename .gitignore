@@ -1,24 +1,20 @@
-# Archivos de credenciales (¡Seguridad!)
+# --- ESPHome & PlatformIO ---
+.esphome/
+.pio/
+.pioenvs/
+deps/
+.temp/
+
+# Seguridad (IMPORTANTE: nunca subir claves)
 secrets.yaml
 
-# Archivos de caché y compilación (EN CUALQUIER DIRECTORIO)
-# Sin la barra "/" al inicio, Git los ignora recursivamente.
-.esphome/
-.platformio/
-build/
-.pioenvs/
-.piolibdeps/
+# --- FreeCAD ---
+*.FCBak
+*.FCStd1
+*.lock
 
-# Archivos binarios de firmware
-*.bin
-*.elf
-*.map
-
-# Archivos de caché del SO
+# --- Sistema y Editores ---
+*.swp
+*~
 .DS_Store
 Thumbs.db
-
-# Prompts para IA
-prompts_raw/
-*.raw.md
-*.raw.txt*.FCBak
