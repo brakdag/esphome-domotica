@@ -109,10 +109,3 @@ Sensor de movimiento PIR, Alarma wireless + DOS LLAVEROS Remotos.
 
 - Se agregó un circuito TP4056 usb C con una batería 18650 SONY y se quito,
   el jack hembra para alimentación y se retiro la caja para 4 baterías de 1.2v AA.
-
-## Modificaciones a realizar.
-
-- [ ] Ver requisitos para conectar a home assistant.
-- [ ] Elegir circuito placa controladora y diagramar conexiones.
-- [ ] Realizar código para ESPHOME.
-- [ ] Implementar.
