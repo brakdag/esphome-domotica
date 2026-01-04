@@ -109,3 +109,18 @@ Sensor de movimiento PIR, Alarma wireless + DOS LLAVEROS Remotos.
 
 - Se agregó un circuito TP4056 usb C con una batería 18650 SONY y se quito,
   el jack hembra para alimentación y se retiro la caja para 4 baterías de 1.2v AA.
+
+- Se decidió usar un ESP01s y el GPIO2, para detectar cuando la alarma o el led rojo
+  se enciende por mas de 2 segundos, como señal de alarma activada.
+
+- Se decidió conectar con una resistencia de $10k\Omega$ a la entrada del chip que
+  controla el led rojo, para que se active con un estado bajo.
+
+- Se agregó en home assistant un disparador para que envíe notificación al
+  celular cuando se activa la sirena de la alarma.
+
+- Se alimenta el esp01s directamente de la salida del TP4056, se quiso alimentar
+  después del regulador de la misma placa, pero la tension resultante era de 2v.
+
+- Se probó agregando un diodo común, para generar una caída de tension, pero es
+  demasiado grande para que no encienda el esp01s.
